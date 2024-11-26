@@ -1,0 +1,28 @@
+
+.ratings{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.ratings>.stars{
+    display: flex;
+    gap: 3px;
+}
+.ratings>.stars>img{
+    
+width: 16px;
+height: 16px;
+}
+.ratings>p{
+    color: #120400;
+
+/* Caption 01 12/Medium */
+font-family: "SF Pro Display";
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 15.6px */
+}
+.ratings>p>span{
+    color: #555150;
+}

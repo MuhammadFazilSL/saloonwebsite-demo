@@ -1,0 +1,57 @@
+
+.socialMedia-section{
+    padding: 80px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #FFF;
+    align-items: center;
+    justify-content: center;
+}
+.socialMedia-section>p{
+    color: #120400;
+text-align: center;
+font-family: "Proza Libre";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 41.6px */
+}
+.socialMedia-section>p>span{
+    color: #CD9B8E;
+}
+.socialMedia-section>.socialMedia-images-container{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    /*scrollbar-gutter: stable;*/
+}
+.socialMedia-section>.socialMedia-images-container>.socialMedia-images{
+ display: flex;
+ width: 100%;
+ justify-content: center;
+}
+.socialMedia-section>.socialMedia-images-container::-webkit-scrollbar{
+    background-color: #ecdbd8;
+    height: 5px;
+}
+.socialMedia-section>.socialMedia-images-container:hover::-webkit-scrollbar-thumb{
+    background-color: #b3abaa;
+    border-radius: 100vh;
+}
+.socialMedia-section>.socialMedia-images-container>.socialMedia-images{
+    scrollbar-color: transparent ;
+}
+.socialMedia-section>.socialMedia-images-container>.socialMedia-images>img{
+    width: 262px;
+height: 262px;
+}
+
+@media screen and (max-width:1300px) {
+    
+    .socialMedia-section>.socialMedia-images-container>.socialMedia-images{
+        display: flex;
+        width: 100%;
+        justify-content: start;
+       }
+    }

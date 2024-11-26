@@ -1,0 +1,111 @@
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.explore-container>.explore-map-container{
+    display: flex;
+    width: 70%;
+    transition: 0.5s ;
+}
+.explore-container>.explore-map-container>img{
+    width: 50%;
+height: 638px;
+object-fit: cover;
+transition: 0.5s ;
+}
+.explore-container>.wt-map{
+    width: 100%;
+    transition: 0.5s ;
+}
+.explore-container>.explore-map-container>.explore-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    transition: 0.5s ;
+}
+.explore-container>.explore-map-container>.wt-map{
+    width: 50%;
+    padding: 0 24px 0 100px;
+    transition: 0.5s ;
+}
+.explore-container>.explore-map-container>.explore-section>span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.explore-container>.explore-map-container>.explore-section>span>.filter-btn{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+background: #120400;
+padding: 8px 16px;
+color: var(--Background-Color-White-00, #FFF);
+text-align: center;
+
+/* Body 02 14/Medium */
+font-family: "SF Pro Display";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 18.2px */
+cursor: pointer;
+}
+.explore-container>.explore-map-container>.explore-section>span>.map-btn{
+    border-radius: 10px;
+border: 1px solid #120400;
+display: flex;
+align-items: center;
+gap: 10px;
+padding: 8px 16px;
+background-color: #FFF;
+color: #120400;
+text-align: center;
+
+/* Body 02 14/Medium */
+font-family: "SF Pro Display";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 18.2px */
+cursor: pointer;
+}
+.explore-container>.explore-map-container>.explore-section>h2{
+    color: #000;
+text-align: center;
+
+/* H4 20/SemiBold */
+font-family: "Proza Libre";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 26px */
+text-align: start;
+}
+@media screen and (max-width:1220px) {
+    .explore-container>.explore-map-container>.wt-map {
+        width: 55%;
+    }
+    .explore-container>.explore-map-container>img {
+        width: 45%;
+        height: 538;
+    }
+}
+@media screen and (max-width:1120px) {
+    .explore-container>.explore-map-container>.wt-map {
+        width: 60%;
+    }
+    .explore-container>.explore-map-container>img {
+        width: 40%;
+        height: 538;
+    }
+}

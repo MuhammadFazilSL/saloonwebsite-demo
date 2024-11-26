@@ -1,0 +1,108 @@
+.feature-cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.feature-cards>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 348px;
+height: 269px;
+border-radius: 24px;
+background: #FFF;
+padding: 24px;
+box-shadow: 0px 0px 12px 0px rgba(39, 7, 37, 0.08);
+cursor: pointer;
+}
+.feature-cards>span:hover{
+    box-shadow: 6px 6px 12px 3px rgb(26 4 4 / 23%);
+}
+.feature-cards>span>img{
+    width: 64px;
+height: 64px;
+margin-bottom: 16px;
+}
+.feature-cards>span>h2{
+    color: #120400;
+text-align: center;
+font-family: "Proza Libre";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+}
+.feature-cards>span>p{
+    color: var(--Text-Color-Black-02, #555150);
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.partnerships{
+    align-items: flex-start !important;
+    padding: 35px !important;
+}
+.partnerships>img{
+    width: 48px !important;
+height: 48px !important;
+}
+.partnerships>h2{
+    text-align: left !important;
+}
+.partnerships>p{
+    text-align: left !important;
+}
+.beauty-salon{
+    align-items: flex-start !important;
+    padding: 35px !important;
+    background-color: #FDF3F0 !important;
+}
+.beauty-salon.active{
+    background-color: #FFF !important;
+}
+.beauty-salon>img{
+    width: 48px !important;
+height: 48px !important;
+}
+.beauty-salon>h2{
+    text-align: left !important;
+}
+.beauty-salon>p{
+    text-align: left !important;
+}
+
+
+@media screen and (max-width:1300px) {
+    .feature-cards>span {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:1220px) {
+    .feature-cards>span {
+        width: 300px;
+    }
+}
+@media screen and (max-width:1160px) {
+    .feature-cards>span {
+        width: 280px;
+    }
+    .partnerships {
+        padding: 15px !important;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .feature-cards>span {
+        width: 240px;
+    }
+    .partnerships {
+        padding: 6px !important;
+    }
+}

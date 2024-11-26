@@ -1,0 +1,75 @@
+.footer-section{
+    border-top: 1.5px solid var(--Text-Color-Black-03, #A9A6A5);
+background: var(--Background-Color-Pink-01, #FDF3F0);
+padding: 80px 100px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.footer-section>.footer-container{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.footer-section>.footer-container>.footer-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 30%;
+}
+.footer-section>.footer-container>.footer-logo>img{
+    
+width: 164px;
+height: 37px;
+}
+.footer-section>.footer-container>.footer-logo>p{
+    color: var(--Text-Color-Black-02, #555150);
+font-family: "SF Pro Display";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
+.footer-section>.footer-container>.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.footer-section>.footer-container>.footer-content>span{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer-section>.footer-container>.footer-content>span>h3{
+    color: var(--Text-Color-Black-01, #120400);
+font-family: "Proza Libre";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 26px */
+}
+.footer-section>.footer-container>.footer-content>span>p{
+    color: var(--Text-Color-Black-02, #555150);
+font-family: "SF Pro Display";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 240%; /* 38.4px */
+cursor: pointer;
+}
+.footer-section>.line{
+    width: 100%;
+height: 0.5px;
+background-color: #A9A6A5;
+
+}
+.footer-section>.footer-credits{
+    color: var(--Text-Color-Black-02, #555150);
+text-align: center;
+font-family: "SF Pro Display";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
