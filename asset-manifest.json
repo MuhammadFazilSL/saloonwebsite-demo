@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/saloonwebsite-demo/static/css/main.ba85aa41.css",
+    "main.js": "/saloonwebsite-demo/static/js/main.3c90d805.js",
+    "static/media/chairs-barbershop.png": "/saloonwebsite-demo/static/media/chairs-barbershop.712219d8c40af01764e2.png",
+    "static/media/bussiness-bgimg.png": "/saloonwebsite-demo/static/media/bussiness-bgimg.a51bc9c6fed0b9149c62.png",
+    "static/media/app-imgbg.png": "/saloonwebsite-demo/static/media/app-imgbg.0bf896dd6060a40f3a4f.png",
+    "static/media/works-img1.png": "/saloonwebsite-demo/static/media/works-img1.027cd6b174478fe416f8.png",
+    "static/media/map-image.png": "/saloonwebsite-demo/static/media/map-image.ee276f425c706f670b9f.png",
+    "static/media/person-img.png": "/saloonwebsite-demo/static/media/person-img.d52e6b26b8a14d8ae1f0.png",
+    "static/media/SFPRODISPLAYMEDIUM.OTF": "/saloonwebsite-demo/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
+    "static/media/SFPRODISPLAYBOLD.OTF": "/saloonwebsite-demo/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/saloonwebsite-demo/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
+    "static/media/phone-image.png": "/saloonwebsite-demo/static/media/phone-image.724c09b07502d137bce6.png",
+    "static/media/phones-img.png": "/saloonwebsite-demo/static/media/phones-img.1581d94d745c441fb57d.png",
+    "static/media/img1.png": "/saloonwebsite-demo/static/media/img1.35c75eed761293ea1431.png",
+    "static/media/image-110.png": "/saloonwebsite-demo/static/media/image-110.6082897bb2af1561cb73.png",
+    "static/media/img5.png": "/saloonwebsite-demo/static/media/img5.a083c5a4e46e8706b518.png",
+    "static/media/img2.png": "/saloonwebsite-demo/static/media/img2.b7bc9bfa4981733b8c9d.png",
+    "static/media/img4.png": "/saloonwebsite-demo/static/media/img4.7016b7ab8d4d51aa8f7e.png",
+    "static/media/barbershop-img.png": "/saloonwebsite-demo/static/media/barbershop-img.e89148676a5f6d4a06a6.png",
+    "static/media/img3.png": "/saloonwebsite-demo/static/media/img3.edef620c18b7cbfcfbaa.png",
+    "static/media/bg-img.png": "/saloonwebsite-demo/static/media/bg-img.6da7143bb1cb75a46d38.png",
+    "static/media/image-111.png": "/saloonwebsite-demo/static/media/image-111.4bc188ae4688640da4e6.png",
+    "static/media/offer-image2.png": "/saloonwebsite-demo/static/media/offer-image2.455c888f0b35bce41cd0.png",
+    "static/media/offer-image1.png": "/saloonwebsite-demo/static/media/offer-image1.23aa76466ded694b059f.png",
+    "static/media/test-bgimg2.png": "/saloonwebsite-demo/static/media/test-bgimg2.853e87118b814e5553f8.png",
+    "static/media/test-bgimg1.png": "/saloonwebsite-demo/static/media/test-bgimg1.c58991f6f5858dbbe744.png",
+    "index.html": "/saloonwebsite-demo/index.html",
+    "main.ba85aa41.css.map": "/saloonwebsite-demo/static/css/main.ba85aa41.css.map",
+    "main.3c90d805.js.map": "/saloonwebsite-demo/static/js/main.3c90d805.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba85aa41.css",
+    "static/js/main.3c90d805.js"
+  ]
+}
