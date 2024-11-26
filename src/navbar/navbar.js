@@ -15,9 +15,11 @@ const Navbar = (props) => {
     props.setNavitem(item)
     console.log(item)
     if(item === "Setup My Business"){
-      return navigate(`/setupBusiness`)
+      return navigate(`/saloonwebsite-demo/setupBusiness`)
+    }if(item === "About Us"){
+      return
     }
-    navigate(`/${item}`)
+    navigate(`/saloonwebsite-demo/${item}`)
   }
   return (
     <div  className={props.navItems ? "navbar-container" : "navbar-container change-bg"}>
