@@ -27,11 +27,11 @@ function App() {
             <Navbar navItems={navItems} setNavitem={setNavitem} selectedItem={selectedItem} />
 
       <Routes>
-        <Route path='/' element={<Home />} ></Route>
-        <Route path='/home' element={<Home />} ></Route>
-        <Route path='/explore' element={ <Explore />} ></Route>
-        <Route path='/explore/:id' element={ <DetailsPage />} ></Route>
-        <Route path='/setupBusiness' element={ <SetupBussiness />} ></Route>
+        <Route path='/saloonwebsite-demo/' element={<Home />} ></Route>
+        <Route path='/saloonwebsite-demo/home' element={<Home />} ></Route>
+        <Route path='/saloonwebsite-demo/explore' element={ <Explore />} ></Route>
+        <Route path='/saloonwebsite-demo/explore/:id' element={ <DetailsPage />} ></Route>
+        <Route path='/saloonwebsite-demo/setupBusiness' element={ <SetupBussiness />} ></Route>
         
       </Routes>
      
