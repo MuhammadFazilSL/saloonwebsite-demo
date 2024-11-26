@@ -70,7 +70,7 @@ const ExploreCards = (props) => {
             cardDetails.map((item,index) =>(
                 <span className={props.showMap ? "exploreCard wt-map" : "exploreCard"} > 
                     <img src={item.image} alt="" className="exploreCards-image" />
-                    <span className="exploreCards-content" onClick={()=>navigate("/explore/45121254512")}>
+                    <span className="exploreCards-content" onClick={()=>navigate("/saloonwebsite-demo/explore/45121254512")}>
                         <h3>{item.heading}</h3>
                         <p>{item.address}</p>
                         <span>
