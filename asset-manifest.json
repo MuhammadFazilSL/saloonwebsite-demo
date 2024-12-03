@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/saloonwebsite-demo/static/css/main.ba85aa41.css",
-    "main.js": "/saloonwebsite-demo/static/js/main.c4f234e7.js",
+    "main.css": "/saloonwebsite-demo/static/css/main.bcda5072.css",
+    "main.js": "/saloonwebsite-demo/static/js/main.fdb79e9c.js",
     "static/media/chairs-barbershop.png": "/saloonwebsite-demo/static/media/chairs-barbershop.712219d8c40af01764e2.png",
     "static/media/bussiness-bgimg.png": "/saloonwebsite-demo/static/media/bussiness-bgimg.a51bc9c6fed0b9149c62.png",
     "static/media/app-imgbg.png": "/saloonwebsite-demo/static/media/app-imgbg.0bf896dd6060a40f3a4f.png",
@@ -27,11 +27,11 @@
     "static/media/test-bgimg2.png": "/saloonwebsite-demo/static/media/test-bgimg2.853e87118b814e5553f8.png",
     "static/media/test-bgimg1.png": "/saloonwebsite-demo/static/media/test-bgimg1.c58991f6f5858dbbe744.png",
     "index.html": "/saloonwebsite-demo/index.html",
-    "main.ba85aa41.css.map": "/saloonwebsite-demo/static/css/main.ba85aa41.css.map",
-    "main.c4f234e7.js.map": "/saloonwebsite-demo/static/js/main.c4f234e7.js.map"
+    "main.bcda5072.css.map": "/saloonwebsite-demo/static/css/main.bcda5072.css.map",
+    "main.fdb79e9c.js.map": "/saloonwebsite-demo/static/js/main.fdb79e9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba85aa41.css",
-    "static/js/main.c4f234e7.js"
+    "static/css/main.bcda5072.css",
+    "static/js/main.fdb79e9c.js"
   ]
 }
