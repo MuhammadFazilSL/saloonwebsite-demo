@@ -114,7 +114,10 @@ const Home = () => {
                         </div>
                     </span>
                 </span>
+                <div>
+                    <span className='img-bg-box'></span>
                 <img src={worksImg1} alt="" />
+                </div>
             </div>
             <img src={testBgimg2} alt="" />
         </div>

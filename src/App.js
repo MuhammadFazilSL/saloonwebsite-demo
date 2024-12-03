@@ -8,10 +8,12 @@ import Explore from './pages/explore/explore';
 import { Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 import DetailsPage from './pages/detailsPage/detailsPage';
 import SetupBussiness from './pages/setupBussiness/setupBussiness';
+import SideBar from './navbar/sideBar';
 
 
 function App() {
   const [selectedItem, setselectedItem] = useState("Home")
+  const [sidebarOpen, setsidebarOpen] = useState(false)
   const navItems = [
     "Home","Explore","Setup My Business","About Us"
   ]
@@ -24,9 +26,10 @@ function App() {
   return (
     <Router>
     <div className="App">
-            <Navbar navItems={navItems} setNavitem={setNavitem} selectedItem={selectedItem} />
-
+    <Navbar navItems={navItems} setNavitem={setNavitem} selectedItem={selectedItem} sidebarOpen={sidebarOpen} setsidebarOpen={setsidebarOpen} />
+      <SideBar navItems={navItems} setNavitem={setNavitem} selectedItem={selectedItem} sidebarOpen={sidebarOpen} setsidebarOpen={setsidebarOpen} />
       <Routes>
+        <Route path='/' element={<Home />} ></Route>
         <Route path='/saloonwebsite-demo/' element={<Home />} ></Route>
         <Route path='/saloonwebsite-demo/home' element={<Home />} ></Route>
         <Route path='/saloonwebsite-demo/explore' element={ <Explore />} ></Route>

@@ -384,3 +384,371 @@ z-index: -1;
         gap: 75px;
     }
 }
+
+@media screen and (max-width: 1050px) {
+    .setupBussiness-container>.details-section>.details-contents>h2 {
+        width: 100%;
+        font-size: 32px;
+    }
+    .setupBussiness-container>.details-section>.details-contents {
+        width: 50%;
+    }
+    .setupBussiness-container>.details-section>.details-cards {
+        gap: 40px;
+        width: 50%;
+    }
+    .setupBussiness-container>.details-section>.details-cards>div>span>p:nth-child(2) {
+        font-size: 36px;
+    }
+    .setupBussiness-container>.appDownload-section {
+        padding: 80px 100px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .setupBussiness-container>.details-section {
+        gap: 35px;
+    }
+    .setupBussiness-container>.details-section>.details-contents>h2 {
+        width: 100%;
+        font-size: 28px;
+    }
+    .setupBussiness-container>.details-section>.details-cards>div>span>img {
+        width: 34px;
+        height: 34px;
+        margin-bottom: 12px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-heading>h3, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-heading>h3 {
+        font-size: 26px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-heading>p, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-heading>p {
+        font-size: 12px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area, .setupBussiness-container>.aboutDashboard-section>.content-area {
+        width: 65%;
+    }
+    .setupBussiness-container>.onlineBooking-section>.image-area, .setupBussiness-container>.aboutDashboard-section>.image-area {
+        width: 35%;
+    }
+    .setupBussiness-container>.onlineBooking-section>.image-area>img, .setupBussiness-container>.aboutDashboard-section>.image-area>img {
+        width: 300px;
+        height: 503px;
+    }
+    
+    .setupBussiness-container>.appDownload-section>.apps-area>span {
+        gap: 15px;
+        padding: 24px 24px 0 24px;
+        align-items: flex-end;
+        border-radius: 12px;
+        width: 400px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>.empty-space {
+        width: 50px;
+        height: 70px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span {
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span>p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span>span>img {
+        width: 86px;
+        height: 25px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span>img {
+        width: 100px;
+        height: 25px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>img {
+        
+    width:100%;
+    height: auto;
+    }
+}
+@media screen and (max-width: 780px) {
+    .setupBussiness-container>.details-section {
+        padding: 30px 50px;
+        gap: 30px;
+    }
+    .setupBussiness-container>.details-section>.details-contents {
+        width: 50%;
+    }
+    .setupBussiness-container>.details-section>.details-cards {
+        gap: 30px;
+        width: 50%;
+    }
+    .setupBussiness-container>.details-section>.details-contents>h2 {
+        font-size: 24px;
+        width: 80%;
+    }
+    .setupBussiness-container>.details-section>.details-contents>p {
+        font-size: 14px;
+    }
+    .setupBussiness-container>.details-section>.details-cards>div>span>p:nth-child(2) {
+        font-size: 28px;
+    }
+    .setupBussiness-container>.details-section>.details-cards>div>span>p:nth-child(3) {
+        font-size: 18px;
+    }
+    .setupBussiness-container>.partnerships-section {
+        padding: 30px 50px;
+    }
+    .setupBussiness-container>.partnerships-section>h2 {
+        font-size: 24px;
+    }
+    .setupBussiness-container>.partnerships-section>p {
+        font-size: 14px;
+        width: 90%;
+    }
+    .setupBussiness-container>.onlineBooking-section {
+        padding: 30px 50px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-heading>h3, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-heading>h3 {
+        font-size: 24px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-heading>p, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-heading>p {
+        font-size: 12px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards>.content-area-card, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards>.content-area-card {
+        padding: 6px;
+        border-radius: 12px;
+        gap: 12px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards>.content-area-card>img, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards>.content-area-card>img {
+        width: 24px;
+        height: 24px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards>.content-area-card>span>h4, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards>.content-area-card>span>h4 {
+        font-size: 16px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards>.content-area-card>span>p, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards>.content-area-card>span>p {
+        font-size: 10px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.image-area>img, .setupBussiness-container>.aboutDashboard-section>.image-area>img {
+        width: 300px;
+        height: 500px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area, .setupBussiness-container>.aboutDashboard-section>.content-area {
+        width: 60%;
+    }
+    .setupBussiness-container>.onlineBooking-section>.image-area, .setupBussiness-container>.aboutDashboard-section>.image-area {
+        width: 40%;
+    }
+    .setupBussiness-container>.aboutDashboard-section {
+        padding: 30px 50px;
+    }
+    .setupBussiness-container>.aboutDashboard-section>.image-area>img {
+        margin-left: 30px;
+    }
+    .setupBussiness-container>.appDownload-section {
+        padding: 30px 50px;
+    }
+    
+    .setupBussiness-container>.appDownload-section>.apps-area>span {
+        gap: 15px;
+        padding: 12px 12px 0 12px;
+        align-items: flex-end;
+        border-radius: 6px;
+        max-width: 300px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>.empty-space {
+        width: 50px;
+        height: 70px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span {
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span>p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span>span>img {
+        width: 86px;
+        height: 25px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span>img {
+        width: 100px;
+        height: 25px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>img {
+        
+    width:100%;
+    height: auto;
+    }
+}
+@media screen and (max-width: 730px) {
+    .setupBussiness-container>.details-section>.details-contents>h2 {
+        font-size: 22px;
+        width: 80%;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area, .setupBussiness-container>.aboutDashboard-section>.content-area {
+        width: 70%;
+    }
+    .setupBussiness-container>.onlineBooking-section>.image-area, .setupBussiness-container>.aboutDashboard-section>.image-area {
+        width: 30%;
+    }
+    .setupBussiness-container>.onlineBooking-section>.image-area>img, .setupBussiness-container>.aboutDashboard-section>.image-area>img {
+        width: 250px;
+        height: 480px;
+    }
+}
+@media screen and (max-width: 610px) {
+.setupBussiness-container>.appDownload-section>.apps-area {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 550px) {
+    .setupBussiness-container>.banner-section>h2:nth-child(1) {
+        font-size: 26px;
+    }
+    .setupBussiness-container>.banner-section>h2:nth-child(2) {
+        font-size: 30px;
+    }
+    .setupBussiness-container>.banner-section>p {
+        margin-bottom: 24px;
+        width: 80%;
+        font-size: 12px;
+    }
+    .setupBussiness-container>.banner-section>button {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 10px 9px;
+    }
+    .setupBussiness-container>.details-section {
+        padding: 30px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .setupBussiness-container>.details-section>.details-contents {
+        width: 100%;
+    }
+    .setupBussiness-container>.details-section>.details-contents>h2 {
+        font-size: 24px;
+        width: 100%;
+    }
+    .setupBussiness-container>.details-section>.details-contents>p {
+        font-size: 14px;
+    }
+    .setupBussiness-container>.details-section>.details-cards {
+        gap: 12px;
+    }
+    .setupBussiness-container>.details-section>.details-cards>div>span>img {
+        margin-bottom: 12px;
+    }
+    .setupBussiness-container>.details-section>.details-cards>div>span>p:nth-child(2) {
+        font-size: 30px;
+    }
+    .setupBussiness-container>.details-section>.details-cards>div>span>p:nth-child(3) {
+        font-size: 14px;
+    }
+    .setupBussiness-container>.partnerships-section {
+        padding: 30px 20px;
+    }
+    .setupBussiness-container>.partnerships-section>h2 {
+        font-size: 24px;
+    }
+    .setupBussiness-container>.partnerships-section>p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area, .setupBussiness-container>.aboutDashboard-section>.content-area {
+        width: 100%;
+    }
+    .setupBussiness-container>.onlineBooking-section>.image-area, .setupBussiness-container>.aboutDashboard-section>.image-area {
+        width: 100%;
+    }
+    .setupBussiness-container>.onlineBooking-section {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-heading>h3, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-heading>h3 {
+        font-size: 24px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-heading>p, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-heading>p {
+        font-size: 12px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards {
+        flex-direction: row;
+        width: 100%;
+        padding: 10px;
+        overflow: scroll;
+        background-color: #e2dcdc5e;
+        border-radius: 6px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards>.content-area-card, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards>.content-area-card {
+        padding: 8px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards>.content-area-card>img, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards>.content-area-card>img {
+        width: 24px;
+        height: 24px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards>.content-area-card>span>h4, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards>.content-area-card>span>h4 {
+        font-size: 12px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards>.content-area-card>span>p, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards>.content-area-card>span>p {
+        font-size: 10px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.content-area>.content-area-cards>.content-area-card, .setupBussiness-container>.aboutDashboard-section>.content-area>.content-area-cards>.content-area-card {
+        min-width: 230px;
+        gap: 12px;
+        align-items: center;
+        border-radius: 12px;
+    }
+    .setupBussiness-container>.onlineBooking-section>.image-area>img, .setupBussiness-container>.aboutDashboard-section>.image-area>img {
+        width: 300px;
+        height: 463px;
+    }
+    .setupBussiness-container>.aboutDashboard-section {
+        padding: 30px 20px;
+        flex-direction: column-reverse;
+    }
+    .setupBussiness-container>.appDownload-section {
+        padding: 30px 20px;
+    }
+    .setupBussiness-container>.appDownload-section>h3 {
+        font-size: 24px;
+    }
+    .setupBussiness-container>.appDownload-section>p {
+        font-size: 12px;
+        width: 90%;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area {
+        flex-direction: column;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span {
+        gap: 15px;
+        padding: 12px 12px 0 12px;
+        align-items: flex-end;
+        border-radius: 6px;
+        max-width: 300px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>.empty-space {
+        width: 50px;
+        height: 70px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span {
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span>p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span>span>img {
+        width: 86px;
+        height: 25px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>span>img {
+        width: 100px;
+        height: 25px;
+    }
+    .setupBussiness-container>.appDownload-section>.apps-area>span>img {
+        
+    width:100%;
+    height: auto;
+    }
+}

@@ -99,7 +99,7 @@ padding: 6px 12px;
     display: flex;
     gap: 16px;
 }
-.detailsPage-container>.heading-icons>.icons-section>img{
+.detailsPage-container>.heading-icons>.icons-section>.headings-section-icon{
     padding: 8px;
     border-radius: 8px;
 border: 1px solid  #E5E2E2;
@@ -543,8 +543,10 @@ line-height: 130%; /* 18.2px */
         width: 35%;
     }
     .detailsPage-container>.images-area>span>img {
+       
         width: 330px;
-        height: 177.5px;
+        object-fit: cover;
+        height: 185.5px;
     }
 }
 @media screen and (max-width:1100px) {
@@ -556,6 +558,277 @@ line-height: 130%; /* 18.2px */
     }
     .detailsPage-container>.images-area>span>img {
         width: 310px;
-        height: 170.5px;
+        object-fit: cover;
+        height: 185.5px;
+    }
+    .detailsPage-container>.images-area>span>button {
+        right: 48px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .detailsPage-container>.images-area>span>button {
+        right: 24px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .detailsPage-container {
+        padding: 16px 50px;
+    }
+    .detailsPage-container>.heading-icons {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+    .detailsPage-container>.heading-icons>.headings-section {
+        width: 70%;
+    }
+    .detailsPage-container>.heading-icons>.icons-section {
+        align-self: flex-end;
+    }
+    .detailsPage-container>.images-area>img {
+        width: 60%;
+        height: 250px;
+        object-fit: fill;
+    }
+    .detailsPage-container>.images-area>span>img {
+        width: 100%;
+        height: 114.5px;
+        object-fit: cover;
+    }
+    .detailsPage-container>.services-billings>.service-area {
+        width: 60%;
+    }
+    .detailsPage-container>.services-billings>.billing-area {
+        width: 40%;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-buttons {
+        
+    width: 100%;
+    overflow: scroll;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.inputs-buttons>.filter-btn {
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 400;
+        gap: 5px;
+        letter-spacing: 1px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.inputs-buttons>span>img:nth-child(1) {
+        width: 18px;
+        height: 18px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.inputs-buttons>span {
+        border-radius: 8px;
+        padding: 4px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.inputs-buttons>.filter-btn>img {
+        width: 16px;
+        height: 16px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards {
+        padding: 12px;
+        border-radius: 8px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(2) {
+        gap: 12px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(2)>p>span:nth-child(1), .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(2)>p>span:nth-child(2) {
+        font-size: 10px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(1)>p {
+        font-size: 10px;
+    }
+    .detailsPage-container>.services-billings>.billing-area {
+        padding: 12px;
+    }
+    .detailsPage-container>.services-billings>.billing-area>.addedServices-cards>span>span {
+        width: 100px;
+        flex-wrap: wrap;
+    }
+    .detailsPage-container>.services-billings>.billing-area>h2 {
+        font-size: 16px;
+    }
+    .detailsPage-container>.services-billings>.billing-area>.addedServices-cards>span>span>.dot {
+        display: none;
+    }
+    .detailsPage-container>.services-billings>.billing-area>.addedServices-cards>span>span>p:nth-child(2){
+        margin-right: 50px;
+    }
+    .detailsPage-container>.services-billings>.billing-area>.addedServices-cards>p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .detailsPage-container {
+        padding: 15px 20px;
+    }
+    .detailsPage-container>.detailsPage-path>p{
+        font-size: 12px;
+    }
+    .detailsPage-container>.heading-icons>.headings-section>h2 {
+        font-size: 24px;
+    }
+    .detailsPage-container>.heading-icons {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .detailsPage-container>.heading-icons>.headings-section {
+        gap: 12px;
+    }
+    .detailsPage-container>.heading-icons>.headings-section>.headings-addess>p:nth-child(3),
+    .detailsPage-container>.heading-icons>.headings-section>.headings-addess>p:nth-child(2) {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    .detailsPage-container>.heading-icons>.icons-section {
+        gap: 8px;
+        align-self: flex-end;
+    }
+    .detailsPage-container>.heading-icons>.icons-section>.headings-section-icon {
+        width: 28px;
+        height: 28px;
+        padding: 4px;
+    }
+    .detailsPage-container>.images-area {
+        flex-direction: column;
+    }
+    .detailsPage-container>.images-area>img {
+        width: 100%;
+        height: 200px;
+        border-radius: 8px;
+    }
+    .detailsPage-container>.images-area>span {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .detailsPage-container>.images-area>span>img {
+        width: 100%;
+        height: 100px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+    .detailsPage-container>.images-area>span>button {
+        font-size: 12px;
+        padding: 5px 6px;
+        border-radius: 4px;
+        bottom: 6px;
+        right: 6px;
+    }
+    .detailsPage-container>.services-billings {
+        flex-direction: column;
+    }
+    .detailsPage-container>.services-billings>.service-area {
+        width: 100%;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-buttons {
+        width: 300px;
+        overflow: scroll;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-buttons>p {
+        padding: 15px 10px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>h2 {
+        font-size: 22px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.inputs-buttons>.filter-btn {
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 400;
+        gap: 5px;
+        letter-spacing: 1px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.inputs-buttons>.filter-btn>img{
+        width: 16px;
+        height: 16px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.inputs-buttons>span>img:nth-child(1) {
+        width: 18px;
+        height: 18px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.inputs-buttons>span {
+        border-radius: 8px;
+        padding: 4px;
+    }
+    
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(1) {
+        width: 70%;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards {
+        border-radius: 8px;
+        width: 90%;
+        padding: 24px;
+        align-self: center;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(2)>button {
+        padding: 5px 10px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(2)>p>span:nth-child(1),
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(2)>p>span:nth-child(2) {
+        font-size: 10px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(1)>p {
+        font-size: 10px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards>span:nth-child(2) {
+        gap: 8px;
+        width: 30%;
+    }
+    .detailsPage-container>.services-billings>.billing-area {
+    border-radius: 8px;
+        width: 90%;
+        align-self: center;
+    }
+    
+    .detailsPage-container>.services-billings>.billing-area>h2 {
+        font-size: 22px;
+    }  
+    .detailsPage-container>.services-billings>.billing-area>.addedServices-cards>span>span>.dot {
+        display: block;
+    }
+} 
+
+@media screen and (max-width: 430px) {
+    .detailsPage-container>.images-area>img {
+        width: 100%;
+        height: 150px;
+        border-radius: 8px;
+    }
+    .detailsPage-container>.images-area>span>img {
+        height: 80px;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-buttons {
+        width: 100%;
+        overflow: scroll;
+    }
+    .detailsPage-container>.services-billings>.service-area>.service-contents>.serviceCards {
+        padding: 12px;
+        width: 100%;
+    }
+    .detailsPage-container>.services-billings>.billing-area {
+        width: 100%;
+        padding: 12px;
+    }
+}
+@media screen and (max-width: 350px) {
+    
+    .detailsPage-container>.heading-icons>.headings-section>h2 {
+        font-size: 22px;
+    }
+    .detailsPage-container>.services-billings>.billing-area>h2 {
+        font-size: 20px;
+    }
+    
+    .detailsPage-container>.images-area>span>img {
+        width: 140px;
+        height: 70px;
+        border-radius: 8px;
+        object-fit: cover;
     }
 }

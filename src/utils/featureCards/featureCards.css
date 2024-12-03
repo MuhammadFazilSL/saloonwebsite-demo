@@ -3,9 +3,10 @@
     gap: 20px;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+
+    justify-content: space-between;
 }
-.feature-cards>span{
+.feature-cards>.feature-card{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +18,18 @@ border-radius: 24px;
 background: #FFF;
 padding: 24px;
 box-shadow: 0px 0px 12px 0px rgba(39, 7, 37, 0.08);
+flex-grow: 1;
 cursor: pointer;
 }
-.feature-cards>span:hover{
+.feature-cards>.feature-card:hover{
     box-shadow: 6px 6px 12px 3px rgb(26 4 4 / 23%);
 }
-.feature-cards>span>img{
+.feature-cards>.feature-card>img{
     width: 64px;
 height: 64px;
 margin-bottom: 16px;
 }
-.feature-cards>span>h2{
+.feature-cards>.feature-card>h2{
     color: #120400;
 text-align: center;
 font-family: "Proza Libre";
@@ -36,7 +38,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 150%; /* 30px */
 }
-.feature-cards>span>p{
+.feature-cards>.feature-card>p{
     color: var(--Text-Color-Black-02, #555150);
     text-align: center;
     font-family: "SF Pro Text";
@@ -45,64 +47,139 @@ line-height: 150%; /* 30px */
     font-weight: 400;
     line-height: 150%; /* 21px */
 }
-.partnerships{
-    align-items: flex-start !important;
-    padding: 35px !important;
+.feature-cards>.partnerships{
+    align-items: flex-start ;
+    padding: 35px ;
 }
-.partnerships>img{
-    width: 48px !important;
-height: 48px !important;
+.feature-cards>.partnerships>img{
+    width: 48px ;
+height: 48px ;
 }
-.partnerships>h2{
-    text-align: left !important;
+.feature-cards>.partnerships>h2{
+    text-align: left ;
 }
-.partnerships>p{
-    text-align: left !important;
+.feature-cards>.partnerships>p{
+    text-align: left ;
 }
-.beauty-salon{
-    align-items: flex-start !important;
-    padding: 35px !important;
-    background-color: #FDF3F0 !important;
+.feature-cards>.beauty-salon{
+    align-items: flex-start ;
+    padding: 35px ;
+    background-color: #FDF3F0 ;
 }
-.beauty-salon.active{
-    background-color: #FFF !important;
+.feature-cards>.beauty-salon.active{
+    background-color: #FFF ;
 }
-.beauty-salon>img{
-    width: 48px !important;
-height: 48px !important;
+.feature-cards>.beauty-salon>img{
+    width: 48px ;
+height: 48px ;
 }
-.beauty-salon>h2{
-    text-align: left !important;
+.feature-cards>.beauty-salon>h2{
+    text-align: left ;
 }
-.beauty-salon>p{
-    text-align: left !important;
+.feature-cards>.beauty-salon>p{
+    text-align: left ;
 }
 
 
 @media screen and (max-width:1300px) {
-    .feature-cards>span {
+    .feature-cards>.feature-card {
         width: 320px;
     }
 }
 
 @media screen and (max-width:1220px) {
-    .feature-cards>span {
+    .feature-cards>.feature-card {
         width: 300px;
     }
 }
 @media screen and (max-width:1160px) {
-    .feature-cards>span {
+    .feature-cards>.feature-card {
         width: 280px;
     }
-    .partnerships {
-        padding: 15px !important;
+    .feature-cards>.partnerships {
+        padding: 15px ;
     }
 }
 @media screen and (max-width: 1100px) {
-    .feature-cards>span {
+    .feature-cards {
+        column-gap: 40px;
+    }
+    .feature-cards>.feature-card {
         width: 240px;
     }
-    .partnerships {
-        padding: 6px !important;
+    .feature-cards>.partnerships {
+        padding: 6px ;
+    }
+}
+@media screen and (max-width: 950px) {
+    .feature-cards {
+        justify-content: center;
+    }
+    .feature-cards>.feature-card {
+        width: 300px;
+        flex-grow: 0;
+    }
+}
+@media screen and (max-width: 710px) {
+    
+    .feature-cards>.feature-card {
+        width: 280px;
+    }
+}
+@media screen and (max-width: 680px) {
+    
+    .feature-cards>.feature-card {
+        width: 250px;
+    }
+    .feature-cards>.feature-card>img {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 16px;
+    }
+}
+@media screen and (max-width: 630px) {
+    
+    .feature-cards>.feature-card {
+        width: 200px;
+    }
+    .feature-cards>.partnerships {
+        width: 230px;
+        padding: 12px;
+    }
+    .feature-cards>.partnerships>img {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 6px;
+    }
+    .feature-cards>.beauty-salon {
+        width: 230px;
+        padding: 12px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .feature-cards {
+        
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    }
+    .feature-cards>.feature-card {
+        min-width: 210px;
+        padding: 12px;
+        height: auto;
+    }
+    .feature-cards>.feature-card>img {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 8px;
+    }
+    .feature-cards>.feature-card>h2 {
+        font-size: 16px;
+    }
+    .feature-cards>.feature-card>p {
+
+        font-size: 12px;
     }
 }

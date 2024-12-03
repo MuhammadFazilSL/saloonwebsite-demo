@@ -54,4 +54,11 @@ height: 262px;
         width: 100%;
         justify-content: start;
        }
-    }
+}
+
+
+@media screen and (max-width:550px) {
+.socialMedia-section>p {
+    font-size: 24px;
+}
+}

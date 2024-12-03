@@ -1,0 +1,203 @@
+.sidebar-container{
+    display: none;
+}
+.sidebar-container>.mobile-view{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    height: 100vh;
+    width: 250px;
+    transition: 1s;
+    z-index: 100;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FDF3F0;
+    box-shadow: 12px 4px 12px 0px rgba(18, 4, 0, 0.07);
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sidebar-container>.visible{
+    left: 0;
+    transition: 1s;
+}
+.sidebar-container>.mobile-view>.logo-items>span:nth-child(1){
+    width: 120%;
+    height: auto;
+    background-color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    left: -20px;
+    top: -20px;
+}
+.sidebar-container>.mobile-view>.logo-items>span>img:nth-child(1){
+    width: 124px;
+    height: 30px;
+    object-fit: contain;
+}
+.sidebar-container>.mobile-view>.logo-items>span>div>img:nth-child(1) {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+.sidebar-container>.mobile-view>.logo-items>span:nth-child(1)>div>img:nth-child(2) {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+.sidebar-container>.mobile-view>.logo-items>.mobile-navbar-items{
+    padding: 0 20px;
+}
+.sidebar-container>.mobile-view>.logo-items>.mobile-navbar-items>p{
+    color: #555150;
+    text-align: left;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    cursor: pointer;
+    padding: 20px 0;
+}
+.sidebar-container>.mobile-view>.logo-items>.mobile-navbar-items>p.active{
+    color: var(--Text-Color-Black-01, #120400);
+    text-align: left;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    border-bottom: solid 2px #EFB9AA;
+}
+.sidebar-container>.mobile-view>.logo-items>.mobile-navbar-items>p:nth-child(1){
+    padding: 0 0 20px 0;
+}
+.sidebar-container>.mobile-view>.mobile-buttons-area{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.sidebar-container>.mobile-view>.mobile-buttons-area>button{
+    border: none;
+    outline: none;
+    padding: 11px 14px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 10px;
+    background: #120400;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    cursor: pointer;
+
+}
+
+.sidebar-container>.mobile-view>.logo-items>span:nth-child(2){
+    background-color: #FFF;
+    border-radius: 24px;
+    align-items: center;
+    padding: 12px;
+    display: flex;
+    gap: 6px;
+    margin-bottom: 50px;
+    fill: rgba(255, 255, 255, 0.90);
+    filter: drop-shadow(0px 6px 20px rgba(2, 19, 0, 0.08));
+}
+.sidebar-container>.mobile-view>.logo-items>span>.dropdown{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sidebar-container>.mobile-view>.logo-items>span>.dropdown>span{
+    display: flex;
+    align-items: center;
+}
+.sidebar-container>.mobile-view>.logo-items>span>.dropdown>span>img{
+width: 12px;
+height: 12px;
+margin-right: 6px;
+}
+.sidebar-container>.mobile-view>.logo-items>span>.dropdown>img{
+    cursor: pointer;
+width: 16px;
+height: 16px;
+}
+.sidebar-container>.mobile-view>.logo-items>span>.dropdown>span>p{
+    color: #120400;
+
+/* Body 02 14/Regular */
+font-family: "SF Pro Display";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
+}
+.sidebar-container>.mobile-view>.logo-items>span>.search{
+    display: flex;
+    gap: 6px;
+    overflow: hidden;
+}
+.sidebar-container>.mobile-view>.logo-items>span>.line{
+    width: 2px;
+height: 40px;
+background-color: #CDCAC9;
+}
+.sidebar-container>.mobile-view>.logo-items>span>.search>img{
+width: 12px;
+height: 12px;
+}
+.sidebar-container>.mobile-view>.logo-items>span>.search>input{
+    border: none;
+    outline: none;
+    width: 100px;
+    overflow: hidden;
+}
+.sidebar-container>.mobile-view>.logo-items>span>.search>input::placeholder{
+    color: #555150;
+
+/* Body 02 14/Regular */
+font-family: "SF Pro Display";
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
+}
+
+
+@media screen and (max-width: 780px) {
+    .sidebar-container{
+        display: block;
+    }
+    .sidebar-container>.mobile-view{
+        width: 350px;
+        left: -350px;
+    }
+    .sidebar-container>.visible{
+        left: 0;
+    }
+    .sidebar-container>.mobile-view>.logo-items>span>div{
+        display: none;
+    }
+}
+@media screen and (max-width: 550px) {
+    .sidebar-container{
+        display: block;
+    }
+    .sidebar-container>.mobile-view{
+        width: 250px;
+        left:-300px
+    }
+    .sidebar-container>.visible{
+        left: 0;
+    }
+    .sidebar-container>.mobile-view>.logo-items>span>div{
+        display: block;
+    }
+}

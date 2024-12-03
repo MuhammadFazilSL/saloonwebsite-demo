@@ -9,10 +9,11 @@ import heartIcon from '../../assets/explore/Heart.png'
 import heartIconfilled from '../../assets/explore/Heart-filled.png'
 import { useNavigate } from 'react-router-dom'
 import Rattings from '../rattings/rattings'
+import mapImage from '../../assets/explore/map-image.png'
 
 
 const ExploreCards = (props) => {
-    const [marked, setmarked] = useState(false)
+    const [marked, setmarked] = useState(0)
     const navigate = useNavigate();
     const cardDetails = [
         {
@@ -68,6 +69,7 @@ const ExploreCards = (props) => {
     <div className="exploreCards-section">
         {
             cardDetails.map((item,index) =>(
+              <>
                 <span className={props.showMap ? "exploreCard wt-map" : "exploreCard"} > 
                     <img src={item.image} alt="" className="exploreCards-image" />
                     <span className="exploreCards-content" onClick={()=>navigate("/saloonwebsite-demo/explore/45121254512")}>
@@ -100,6 +102,8 @@ const ExploreCards = (props) => {
                             }
                         </div>
                 </span>
+                <img src={mapImage} alt="" className={index === marked ? 'map-img-card show' : 'map-img-card'}/>
+                </>
             ))
         }
        

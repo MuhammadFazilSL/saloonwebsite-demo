@@ -73,7 +73,7 @@ const FeatureCards = (props) => {
     <div className="feature-cards">
     {
       ( props.parentComponent === "beauty salon" ?  cardsDetails2 : cardsDetails ).map((item,index) => (
-            <span className={props.parentComponent === "partnerships"  ? "partnerships" : props.parentComponent === "beauty salon" ? index === 1 ? "beauty-salon active" : "beauty-salon" : ""}>
+            <span className={props.parentComponent === "partnerships"  ? "feature-card partnerships" : props.parentComponent === "beauty salon" ? index === 1 ? "feature-card beauty-salon active" : "feature-card beauty-salon" : "feature-card"}>
                 <img src={item.icon} alt="" />
                 <h2>{item.heading}</h2>
                 <p>{item.content}</p>

@@ -36,12 +36,7 @@ cursor: pointer;
 }
 .navbar-container>.navbar>.navbar-items>.active{
     color: var(--Text-Color-Black-01, #120400);
-text-align: center;
-font-family: "SF Pro Display";
-font-size: 14px;
-font-style: normal;
 font-weight: 500;
-line-height: 130%; /* 18.2px */
 border-bottom: solid 2px #EFB9AA;
 border-radius: 1px;
 padding-bottom: 5px;
@@ -117,10 +112,11 @@ line-height: 130%; /* 18.2px */
 .navbar-container>.navbar>.buttons{
     display: flex;
     gap: 24px;
+    align-items: center;
 }
-.navbar-container>.navbar>.buttons>img{
-    width: 40px;
-height: 40px;
+.navbar-container>.navbar>.buttons>.heart-icon{
+    width: 24px;
+height: 24px;
 cursor: pointer;
 }
 .navbar-container>.navbar>.buttons>button{
@@ -139,6 +135,63 @@ font-weight: 500;
 line-height: 130%; /* 18.2px */
 cursor: pointer;
 }
+.navbar-container>.navbar>.navbar-baricon{
+    display: flex;
+    width: 50px;
+    border-radius: 5px;
+    height: 15px;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.navbar-container>.navbar>.navbar-baricon>span{
+    width: 30px;
+    height: 5px;
+    background-color: #120400d1;
+    border-radius: 5px;
+    position: absolute;
+    transition: 1s;
+}
+.navbar-container>.navbar>.navbar-baricon>span:nth-child(1){
+    top: 0;
+    transition: 1s;
+}
+.navbar-container>.navbar>.navbar-baricon>span:nth-child(2){
+    bottom: 0;
+    transition: 1s;
+}
+.navbar-container>.navbar>.navbar-baricon.active>span:nth-child(1){
+    transform: rotate(45deg);
+    top: 5px;
+    transition: 1s;
+}
+.navbar-container>.navbar>.navbar-baricon.active>span:nth-child(2){
+    transform: rotate(-45deg);
+    bottom: 5px;
+    transition: 1s;
+}
+.navbar-container>.navbar>.navbar-baricon{
+    display: none;
+}
+@media screen and (min-width:1400px) {
+    .navbar-container>.navbar>img {
+        width: 180px;
+        height: 45px;
+    }
+    .navbar-container>.navbar>.navbar-items>p {
+        font-size: 20px;
+    }
+    .navbar-container>.navbar>.buttons>.heart-icon{
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+    }
+    .navbar-container>.navbar>.buttons>button {
+        font-size: 18px;
+    }
+}
 
 @media screen and (max-width:1220px) {
     .navbar-container>.navbar>span:nth-child(2) {
@@ -153,4 +206,76 @@ cursor: pointer;
     .navbar-container>.navbar>.buttons {
         gap: 8px;
     }
+}
+@media screen and (max-width: 900px) {
+    
+    .navbar-container>.navbar>img {
+        width: 124px;
+        height: 30px;
+    }
+    .navbar-container>.navbar>.navbar-items>p {
+        font-size: 12px;
+    }
+    .navbar-container>.navbar>.navbar-items {
+        gap: 4px;
+    }
+    .navbar-container>.navbar>.buttons {
+        gap: 0;
+    }
+    .navbar-container>.navbar>.buttons>button {
+        padding: 9px 12px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 780px) {
+    .change-bg{
+        display: none;
+    }
+    .navbar-container {
+        padding: 30px 50px;
+    }
+    .navbar-container>.navbar {
+        justify-content: flex-start;
+    }
+    .navbar-container>.navbar>img {
+        width: 124px;
+        height: 30px;
+        margin-right: auto;
+    }
+    .navbar-container>.navbar>.navbar-items {
+        display: none;
+    }
+    .navbar-container>.navbar>.buttons {
+        gap: 6px;
+    }
+    .navbar-container>.navbar>.buttons>button {
+        display: none;
+    }
+    .navbar-container>.navbar>.navbar-baricon{
+        display: flex;
+    }
+}
+@media screen and (max-width: 550px) {
+    .navbar-container>.navbar>.navbar-items {
+        display: none;
+    }
+    .navbar-container {
+        padding: 15px 20px ;
+    }
+    .navbar-container>.navbar {
+        justify-content: space-between;
+    }
+    .navbar-container>.navbar>.buttons {
+        display: none;
+    }
+    .navbar-container>.navbar>img {
+        
+        width: 124px;
+        height: 30px;
+    }
+    
+.navbar-container>.navbar>.navbar-baricon{
+    display: flex;
+}
 }

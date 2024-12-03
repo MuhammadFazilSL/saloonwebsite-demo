@@ -50,6 +50,12 @@ line-height: 150%; /* 30px */
     font-weight: 400;
     line-height: 150%; /* 21px */
 }
+@media screen and (min-width: 1400px) {
+    .works-cards>span>span {
+        width: 306px;
+        height: 311px;
+    }
+}
 @media screen and (max-width: 1150px){
     .works-cards>span>span {
         width: 230px;
@@ -60,3 +66,105 @@ line-height: 150%; /* 30px */
         width: 200px;
     }
 } 
+
+@media screen and (max-width: 900px){
+    .works-cards>span>span>img {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 0;
+    }
+    .works-cards>span>span {
+        width: 180px;
+        padding: 10px;
+    }
+    .works-cards>span>span>h2 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 780px){
+    .works-cards {
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        overflow: scroll;
+        height: 100%;
+        align-items: center;
+    }
+    .works-cards>span>span {
+        width: 200px;
+        padding: 16px;
+    }
+    .works-cards>span>span>img {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 16px;
+    }
+    .works-cards>span>span>h2 {
+        font-size: 20px;
+    }
+    .works-cards>span:nth-child(1) {
+        margin-top: 0; 
+        display: flex;
+        gap: 20px;
+    }
+    .works-cards>span:nth-child(2) {
+         margin-bottom: 0;
+         display: flex;
+         gap: 20px;
+    }
+} 
+@media screen and (max-width: 550px) {
+    .works-cards {
+        flex-direction: column;
+        height: 200px;
+        overflow-y: scroll;
+        padding: 8px;
+    }
+    .works-cards>span:nth-child(1) {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .works-cards>span>span {
+        width: 80%;
+        padding: 12px;
+        height: 200px;
+        margin-bottom: 0;
+    }
+    .works-cards>span>span>img {
+        
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+    }
+    .works-cards>span>span>h2 {
+        font-size: 14px;
+    }
+    .works-cards>span>span>p {
+        font-size: 10px;
+        height: auto;
+    }
+    .works-cards>span:nth-child(2) {
+        margin-bottom: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+  
+@media screen and (max-width: 450px) {
+    .works-cards>span>span {
+        width: fit-content;
+        padding: 12px;
+        height: fit-content;
+    }
+    .works-cards>span:nth-child(1) {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    
+    .works-cards>span:nth-child(2) {
+        flex-direction: column;
+    }
+}

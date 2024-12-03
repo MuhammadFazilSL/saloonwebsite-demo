@@ -26,3 +26,23 @@ line-height: 130%; /* 15.6px */
 .ratings>p>span{
     color: #555150;
 }
+
+@media screen and (min-width: 1400px) {
+.ratings>.stars>img {
+    width: 20px;
+    height: 20px;
+}
+.ratings>p {
+    font-size: 16px;
+}
+
+}
+@media screen and (max-width: 450px) {
+.ratings>.stars>img {
+    width: 12px;
+    height: 12px;
+}
+.ratings>p {
+    font-size: 10px;
+}
+}
